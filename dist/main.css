@@ -1,6 +1,8 @@
+/* внутренние переменные */
 :root {
-  --blue: #2036f5;
+  --blue-variable: #0095e6;
 }
+/* подключенный кит */
 /* +20 пикс — для избегания гор. скролла на 1200 */
 :root {
   --font-size: 14px;
@@ -174,13 +176,14 @@
 /* code */
 /* light-code */
 /* dark-code */
-.green {
+/* компоненты */
+.green-import {
   color: green;
 }
-.nested {
+.purple-nested {
   color: purple;
 }
-.nested .tomato {
+.purple-nested .tomato-nested {
     color: tomato;
   }
 .wheat-mixin {
@@ -189,9 +192,9 @@
   text-decoration: underline;
 }
 .blue-variable {
-  color: #302683;
-  color: #302683;
-  color: var(--blue);
+  color: #0095e6;
+  color: #0095e6;
+  color: var(--blue-variable);
 }
 .lightgreen-kit {
   display: block;
@@ -205,7 +208,12 @@
   outline: 2px solid blue;
   width: 500px;
 }
-.red {
+body {
+  font-size: 22px;
+}
+.red-start {
   color: red;
 }
 
+
+/*# sourceMappingURL=main.css.map*/

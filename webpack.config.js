@@ -20,11 +20,6 @@ module.exports = {
       },
     ],
   },
-  entry: './src/index.js',
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
-  },
   devtool: 'source-map',
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
@@ -33,7 +28,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'main2.min.css',
+      filename: 'main.css',
     }),
   ]
 };
