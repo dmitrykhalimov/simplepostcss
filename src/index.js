@@ -1,3 +1,4 @@
+import "./style/main.pcss";
 import _ from 'lodash';
 
 function component() {

@@ -1,0 +1,1 @@
+.green{color:green}.nested{color:purple}.nested .tomato{color:tomato}.wheat-mixin{color:wheat;text-decoration:underline}:root{--blue:#2036f5}.blue-variable{color:#2036f5;color:var(--blue)}.red{color:red}
