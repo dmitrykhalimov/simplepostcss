@@ -11,7 +11,7 @@ module.exports = {
       },
       stage: 3
     },
-    'css-mqpacker': {},
-    'cssnano': {}
+    // 'css-mqpacker': {},
+    // 'cssnano': {}
   }
 };

@@ -19,6 +19,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@htmlacademy/kit": "^1.0.10",
     "css-loader": "^5.2.6",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^5.0.5",
