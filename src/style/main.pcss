@@ -1,16 +1,22 @@
-@import "./components/variables.pcss";
-@import "./components/mixins.pcss";
+/* внутренние переменные */
+@import "./service/variables.pcss";
+@import "./service/mixins.pcss";
 
+/* подключенный кит */
 @import "@htmlacademy/kit/src/css/variables.pcss";
 @import "@htmlacademy/kit/src/css/mixins.pcss";
 
+/* компоненты */
+@import "./components/green-import.pcss";
+@import "./components/purple-nested.pcss";
+@import "./components/wheat-mixin.pcss";
+@import "./components/blue-variable.pcss";
+@import "./components/kit-container.pcss";
 
-@import "./components/green.pcss";
-@import "./components/nested.pcss";
-@import "./components/wheat.pcss";
-@import "./components/blue.pcss";
-@import "./components/import.pcss";
+body {
+  font-size: 22px;
+}
 
-.red {
+.red-start {
   color: red;
 }

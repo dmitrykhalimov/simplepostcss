@@ -25,6 +25,12 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  devtool: 'source-map',
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    watchContentBase: true,
+    port: 3000
+  },
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'main2.min.css',
